@@ -1,7 +1,7 @@
 <?php
-namespace Controllers;
+namespace Coral\Learnphp\Controllers;
 
-use Models\User;
+use Coral\Learnphp\Models\User;
 
 class UserController {
     public function showUser() {

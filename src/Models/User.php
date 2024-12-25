@@ -1,5 +1,5 @@
 <?php
-namespace Models;
+namespace Coral\Learnphp\Models;
 
 class User {
     public function getName() {

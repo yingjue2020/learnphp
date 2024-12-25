@@ -1,8 +1,7 @@
 <?php
-require 'src/Models/User.php';
-require 'src/Controllers/UserController.php';
+use Coral\Learnphp\Controllers\UserController;
 
-use Controllers\UserController;
+require __DIR__ . '/vendor/autoload.php';
 
 $controller = new UserController();
 $controller->showUser(); // 输出 "John Doe"

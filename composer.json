@@ -1,0 +1,21 @@
+{
+    "name": "coral/learnphp",
+    "description": "Learn PHP basic syntax",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "php-di/php-di": "^6.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Coral\\Learnphp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "php",
+            "email": "php@yingjue.info"
+        }
+    ]
+}
